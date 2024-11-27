@@ -85,7 +85,7 @@ header {
 .freccia {
     color: black;
     font-size: 40px;
-    padding-top: 60px; 
+    padding-top: 60px;
     display: inline-block;
 }
 
@@ -97,3 +97,84 @@ header {
     max-width: 100%;
 }
 
+.fascia-bianca {
+    height: 150px;
+    border-bottom: 3px solid gray;
+}
+
+/* MAIN */
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 25%;
+}
+
+
+
+.container-tabelle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+}
+
+
+.etichetta {
+    padding: 10px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testo-card ul {
+    padding-left: 20px;
+}
+.testo-card {
+    padding: 35px 20px;
+}
+
+.etichetta1 {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.testo-card1 {
+    padding: 35px 20px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    position: relative;
+}
+
+.testo-card1 p {
+    padding: 7px 0;
+}
+.testo-card1 button {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+
+.testo-end {
+    width: 60%;
+    margin-top: 40px;
+}
