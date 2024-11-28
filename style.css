@@ -112,7 +112,6 @@ header {
 
 .container-tabelle {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 
 
@@ -120,8 +119,6 @@ header {
 
 .card {
     width: 30%;
-    display: flex;
-    flex-direction: column;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
