@@ -53,9 +53,11 @@ header {
 
 .blu {
     background-color: rgb(34, 81, 235);
-    color: white;
-    
-    
+    color: white;  
+}
+
+.bottone.blu:hover {
+    background-color: rebeccapurple;
 }
 
 .bianco {
@@ -64,7 +66,9 @@ header {
     border: 1px solid black;
 }
 
-
+.bottone.bianco:hover {
+    background-color: white;
+}
 /* HERO */
 .container-hero {
     background-color: rgb(137, 209, 243);
@@ -114,7 +118,8 @@ header {
 
 .fascia-bianca {
     height: 150px;
-    border-bottom: 3px solid gray;
+    border-bottom: 1px solid rgb(218, 213, 213);
+    margin-bottom: 50px;
 }
 
 /* MAIN */
@@ -123,20 +128,62 @@ header {
     margin: 0 25%;
 }
 
+/* CERCHI */
 
 
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cerchio {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerchio-1 {
+    background-color: #3498db; 
+    color: white;
+}
+
+.cerchio-1 .cerchio-piccolo {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.cerchio-2 {
+    background-color: white;
+    border: 1px solid rgb(49, 48, 48);
+}
+
+.container p {
+    margin-right: 40px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+/* TABELLE */
+
+
+.rt {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
 .container-tabelle {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .card {
     width: 30%;
-
-
-
 }
 
 
