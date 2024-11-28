@@ -102,9 +102,6 @@ header {
 /* MAIN */
 
 .container-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 0 25%;
 }
 
@@ -207,3 +204,35 @@ header {
 
 
 /* IMMAGINI E TESTO */
+
+
+.container-sezione {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.carta-img-testo {
+    width: 31%;
+
+}
+
+
+/* TESTO FINALE */
+
+
+.testo-finale {
+    font-size: 30px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: black;
+    margin-top: 70px;
+}
