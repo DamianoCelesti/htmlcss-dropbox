@@ -207,13 +207,6 @@ header {
     height: 100%;
 }
 
-
-
-
-
-
-
-
 .testo-card ul {
     padding-left: 20px;
 }
@@ -222,18 +215,42 @@ header {
     padding: 6px 0;
 }
 
+.check {
+    list-style: none;
+}
+
+.icona {
+    list-style: none;
+}
+
+hr {
+    margin: 30px 0;
+    width: 30%;
+}
+
+.bold {
+    font-weight: bold;
+}
+/* ICONE TABELLE */
+
+
+
+
+
 
 /* TABELLA ORIZZONTALE */
-
+.divisore {
+    display: flex;
+    justify-content: space-between;
+}
 .card-orizzontale {
     margin-top: 100px;
 }
 
-
-
 .testo-end {
     width: 60%;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .card-orizzontale {
