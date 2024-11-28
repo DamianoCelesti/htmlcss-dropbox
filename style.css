@@ -34,16 +34,34 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    
 }
 
+.container-nav a {
+    text-decoration: none;
+}
+.nav-supporto a {
+    text-decoration: none;
+}
 
 /* BOTTONI */
+
+.bottone {
+   padding: 10px 20px;
+    border: none; 
+}
 
 .blu {
     background-color: rgb(10, 6, 226);
     color: white;
-    padding: 10px 20px;
-    border: none;
+    
+    
+}
+
+.bianco {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 
@@ -233,6 +251,50 @@ header {
 
 
 footer {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin-top: 70px;
+    padding-top: 60px;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.nav-footer h4 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+
+.nav-footer li {
+    padding-bottom: 8px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+/* LINGUA */
+
+
+.container-lingua {
+    border-top: 1px solid white;
+    margin-left: 15%;
+    margin-top: 70px;
+    padding: 30px 15px 30px 0;
+    width: 7%;
+}
+
+.lingua {
+    color: white;
 }
