@@ -145,11 +145,17 @@ header {
 .testo-card ul {
     padding-left: 20px;
 }
+.testo-card li {
+    padding:  6px 0;
+}
 .testo-card {
     padding: 35px 20px;
 }
 
-.etichetta1 {
+
+/* TABELLA ORIZZONTALE */
+
+.etichetta-orizzontale {
     padding: 10px 0;
     display: flex;
     justify-content: center;
@@ -157,7 +163,7 @@ header {
     border: 1px solid black;
 }
 
-.testo-card1 {
+.testo-orizzontale {
     padding: 35px 20px;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
@@ -165,10 +171,10 @@ header {
     position: relative;
 }
 
-.testo-card1 p {
+.testo-orizzontale p {
     padding: 7px 0;
 }
-.testo-card1 button {
+.testo-orizzontale button {
     position: absolute;
     right: 20px;
     top: 35px;
@@ -178,3 +184,35 @@ header {
     width: 60%;
     margin-top: 40px;
 }
+.card-orizzontale{
+    margin-bottom: 120px;
+}
+
+
+/* SEZIONE CENTRALE */
+
+.container-img-testo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    
+}
+.img-centrale {
+    width: 60%;
+}
+
+.box-sezione {
+    width: 40%;
+    padding: 35px 20px 0 35px
+}
+
+.box-sezione p {
+    margin: 15px 0;
+}
+.partner {
+    max-width: 100%;
+}
+
+
+/* IMMAGINI E TESTO */ 
+
