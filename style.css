@@ -15,6 +15,7 @@ header {
     display: flex;
 }
 
+
 .container-logo {
     display: flex;
     align-items: center;
@@ -33,16 +34,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    
+    width: 80%;   
 }
 
 .container-nav a {
     text-decoration: none;
+    padding: 0 20px;
+
 }
-.nav-supporto a {
-    text-decoration: none;
-}
+
 
 /* BOTTONI */
 
@@ -52,7 +52,7 @@ header {
 }
 
 .blu {
-    background-color: rgb(10, 6, 226);
+    background-color: rgb(34, 81, 235);
     color: white;
     
     
