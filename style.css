@@ -120,16 +120,17 @@ header {
     max-width: 100%;
 }
 
-.fascia-bianca {
+/* .fascia-bianca {
     height: 150px;
     border-bottom: 1px solid rgb(218, 213, 213);
     margin-bottom: 50px;
-}
+} */
 
 /* MAIN */
 
 .container-main {
     margin: 0 25%;
+    margin-top: 200px;
 }
 
 /* CERCHI */
