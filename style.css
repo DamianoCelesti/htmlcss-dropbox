@@ -207,9 +207,7 @@ header {
     height: 100%;
 }
 
-.testo-card ul {
-    padding-left: 20px;
-}
+
 
 .testo-card li {
     padding: 6px 0;
@@ -234,9 +232,21 @@ hr {
 /* ICONE TABELLE */
 
 
+.icona li {
+    display: flex;
+}
+.icona li i {
+    padding-right: 4px;
+}
 
-
-
+.check li {
+    display: flex;
+    align-items: center;
+}
+.check li i {
+    color: blue;
+    padding-right: 4px;
+}
 
 /* TABELLA ORIZZONTALE */
 .divisore {
