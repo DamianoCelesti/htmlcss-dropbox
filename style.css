@@ -76,7 +76,7 @@ header {
 /* HERO */
 .container-hero {
     background-color: rgb(137, 209, 243);
-    height: 650px;
+    /* height: 650px; */
     padding-top: 60px;
 }
 
