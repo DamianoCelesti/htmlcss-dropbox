@@ -114,10 +114,12 @@ header {
 
 .container-img {
     width: 40%;
+    position: relative;
 }
 
 .tru {
-    max-width: 100%;
+    max-width: 115%;
+    position: absolute;
 }
 
 /* .fascia-bianca {
@@ -130,7 +132,7 @@ header {
 
 .container-main {
     margin: 0 25%;
-    margin-top: 200px;
+    margin-top: 350px;
 }
 
 /* CERCHI */
